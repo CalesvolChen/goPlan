@@ -20,7 +20,7 @@ func main() {
 
 	// fmt.Println(message)
 
-	names := []string{"Calesvol", "何欣媛"}
+	names := []string{"Calesvol"}
 	messages, errs := greetings.Hellos(names)
 
 	if errs != nil {
